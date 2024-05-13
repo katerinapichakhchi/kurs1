@@ -20,7 +20,7 @@ if __name__ == "__main__":
     print(sum_of_elements)
 
 
-def append(a=[]): # не использовать с непостоянніми данніми
+def append(a=[]):                       # не использовать с непостоянніми данніми
     a.append(1)
     return a
 

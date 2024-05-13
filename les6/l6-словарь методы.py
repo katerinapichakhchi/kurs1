@@ -12,8 +12,8 @@ print(a)
 d = {
     "name": "Eugene"
 }
-d["age"] = 27                           # добавить/заменить в словарь
-print(d.get("age", 27))                 # добавить/заменить в словарь
+d["age"] = 27                                                               # добавить/заменить в словарь
+print(d.get("age", 27))                                                     # добавить/заменить в словарь
 print(d.items())
 print(d.keys())
 
@@ -22,16 +22,16 @@ for key, value in d.items():
     print(value)
 
 print(d.values())
-print(d.pop("name"))                           # удалить ключ
+print(d.pop("name"))                                                        # удалить ключ
 print(d)
 
 import collections
 
-d = collections.OrderedDict({                   # порядок
+d = collections.OrderedDict({                                                # порядок
     "name": "Eugene",
     "age": "27"
 })
-d.popitem(last=False)                           # удаляет пару
+d.popitem(last=False)                                                         # удаляет пару
 print(d)
 
 Point = collections.namedtuple("Point", "x y")

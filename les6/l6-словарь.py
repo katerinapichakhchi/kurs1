@@ -6,9 +6,9 @@ a = {
     "age": 27,
     "favorite_fruits": ["apple", "banana"]
 }
-print(a["name"])                 # по ключу
-print(len(a))                    # кол-во ключей
-print("name" in a)               # проверка ключа в словаре
+print(a["name"])                                        # по ключу
+print(len(a))                                           # кол-во ключей
+print("name" in a)                                      # проверка ключа в словаре
 
 b = dict(name="Eugene", age=27)
 print(b)
