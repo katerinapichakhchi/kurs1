@@ -84,7 +84,7 @@ def my_generator():
     yield 3
 
 
-def fibonachi_generator(n):                                                                    # Генератор Фибоначи
+def fibonachi_generator(n):                                                                       # Генератор Фибоначи
     a, b = 0, 1
     count = 0
     while count < n:
@@ -97,5 +97,3 @@ fibonachi = fibonachi_generator(50)
 
 for value in fibonachi:
     print(value, end=" ")
-
-
